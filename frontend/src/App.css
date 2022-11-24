@@ -1,5 +1,13 @@
 .App {
   text-align: center;
+  margin: 2rem 20rem 2rem 20rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+th {
+  text-align: center;
 }
 
 .App-logo {
@@ -39,4 +47,19 @@
 
 form {
   margin: 10px;
+}
+
+label {
+  display: inline-block;
+  width: 100px;
+  text-align: right;
+}
+
+button {
+  color: red;
+  border-radius: 50%;
+}
+
+button:hover {
+  transform: scale(1.1);
 }
